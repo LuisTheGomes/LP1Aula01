@@ -14,7 +14,8 @@ namespace TiposVarios
             char letra = 'A';
             float flo=0.02f;
             decimal dec=0.0m;
-
+            bool verdade = true;
+            bool mentira = false;
 
             Console.WriteLine(numero);
             Console.WriteLine(dank);
@@ -22,6 +23,8 @@ namespace TiposVarios
             Console.WriteLine(letra);
             Console.WriteLine(flo);
             Console.WriteLine(dec);
+            Console.WriteLine(verdade);
+            Console.WriteLine(mentira);
         }
     }
 }
