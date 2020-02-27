@@ -15,6 +15,9 @@ namespace VariasStrings
             string mistura = "numero " + 1;
             string conc =$"numero {x}";
             string forma = String.Format("Nivel {1} : Masmorra {0}",1,"Lmao");
+            double xx= 0.12345;
+            int ii=18;
+
 
             Console.WriteLine(laugh);
             Console.WriteLine(cringe);
@@ -25,6 +28,8 @@ namespace VariasStrings
             Console.WriteLine(conc);
             Console.WriteLine(forma);
             Console.WriteLine("Fresh {0} and {1}","memes","fruit");
+            Console.WriteLine("{0:f2}",xx);
+            Console.WriteLine("{0:p1}",ii);
         }
     }
 }
